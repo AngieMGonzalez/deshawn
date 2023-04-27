@@ -37,3 +37,6 @@ Running migrations:
 
 # Serialization
 - Serialization =	Serializers are a key component for working with data. They are used to convert complex data types, such as Django model instances, into Python datatypes (ie. lists and dictionaries) that can be easily rendered into JSON when sent as the view's Response data
+
+# CREATE POST
+- Now that you have a model, a view, a serializer, and the URL defining the route for appointments, the final step is to create an appointment or two and then get them.
