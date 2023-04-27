@@ -37,6 +37,7 @@ class AppointmentView(ViewSet):
 
 
 # The serializer will be covered in the next chapter
+# The completed field will be completely ignored during the serialization process.
 class AppointmentSerializer(serializers.ModelSerializer):
 
     class Meta:

@@ -1,9 +1,10 @@
-# deshawn Django Dog-Walking
+# Deshawn Django Dog-Walking
 # Working thru Book 3
 - https://github.com/nashville-software-school/bangazon-llc/tree/cohort-62/book-3-levelup
 
 ## Setup
-```mkdir -p ~/workspace/python/deshawn
+```
+mkdir -p ~/workspace/python/deshawn
 cd ~/workspace/python/deshawn
 pipenv shell
 ```
@@ -33,3 +34,6 @@ Running migrations:
 
 ## Object Relational Mapper Tools
 - https://github.com/nashville-software-school/bangazon-llc/blob/cohort-62/book-3-levelup/chapters/DD_DJANGO_ORM.md 
+
+# Serialization
+- Serialization =	Serializers are a key component for working with data. They are used to convert complex data types, such as Django model instances, into Python datatypes (ie. lists and dictionaries) that can be easily rendered into JSON when sent as the view's Response data
